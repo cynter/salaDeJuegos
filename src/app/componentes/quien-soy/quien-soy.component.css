@@ -1,0 +1,18 @@
+.example-card {
+    max-width: 400px;
+}
+/*
+.example-header-image {
+    background-image: url('src/assets/img/YO1.jpg');
+    background-size: cover;
+}*/
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Esto es opcional, ajusta la altura según tus necesidades */
+    background-image: url('/assets/img/YO1.jpg'); /* Ruta de la imagen */
+    background-size: cover; /* Ajusta el tamaño para cubrir el div */
+    background-position: center; /* Centra la imagen */
+  }
